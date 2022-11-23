@@ -1,0 +1,12 @@
+Source: ros-foxy-joy-teleop
+Section: misc
+Priority: optional
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-action-tutorials-interfaces <!nocheck>, ros-foxy-ament-copyright <!nocheck>, ros-foxy-ament-flake8 <!nocheck>, ros-foxy-ament-pep257 <!nocheck>, ros-foxy-ament-xmllint <!nocheck>, ros-foxy-example-interfaces <!nocheck>, ros-foxy-geometry-msgs <!nocheck>, ros-foxy-launch-ros <!nocheck>, ros-foxy-launch-testing <!nocheck>, ros-foxy-std-msgs <!nocheck>, ros-foxy-std-srvs <!nocheck>, ros-foxy-test-msgs <!nocheck>, ros-foxy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-joy-teleop
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-foxy-control-msgs, ros-foxy-rclpy, ros-foxy-rosidl-runtime-py, ros-foxy-sensor-msgs, ros-foxy-teleop-tools-msgs, ros-foxy-trajectory-msgs, ros-foxy-ros-workspace
+Description: A (to be) generic joystick interface to control a robot
