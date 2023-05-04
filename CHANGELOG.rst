@@ -2,6 +2,18 @@
 Changelog for package joy_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.0 (2023-05-04)
+------------------
+* When allow_multiple_commands is True, Use AND operation with match_command instead of OR operation (`#82 <https://github.com/ros-teleop/teleop_tools/issues/82>`_)
+  * Use AND operation with match_command instead of OR operation
+  * added allow_multiple_commands parameter to have some control over the joystick combinations
+* Contributors: Sai Kishor Kothakota
+
+0.4.1 (2021-05-23)
+------------------
+* Fix missing exec_depend rosservice
+* Contributors: Jeremie Deray
+
 0.4.0 (2020-06-04)
 ------------------
 * Fix iteritems and dependency in python3
