@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>joy_teleop</name>
-  <version>0.4.0</version>
+  <version>0.5.0</version>
   <description>A (to be) generic joystick interface to control a robot</description>
 
   <maintainer email="bence.magyar.robotics@gmail.com">Bence Magyar</maintainer>
@@ -14,6 +14,7 @@
   <exec_depend>actionlib</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>rospy</exec_depend>
+  <exec_depend>rosservice</exec_depend>
   <exec_depend>rostopic</exec_depend>
   <exec_depend>teleop_tools_msgs</exec_depend>
 
