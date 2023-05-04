@@ -1,3 +1,31 @@
+## teleop_tools (noetic) - 0.5.0-1
+
+The packages in the `teleop_tools` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic teleop_tools --edit` on `Thu, 04 May 2023 15:32:29 -0000`
+
+These packages were released:
+- `joy_teleop`
+- `key_teleop`
+- `mouse_teleop`
+- `teleop_tools`
+- `teleop_tools_msgs`
+
+Version of package(s) in repository `teleop_tools`:
+
+- upstream repository: https://github.com/ros-teleop/teleop_tools.git
+- release repository: https://github.com/ros-gbp/teleop_tools-release.git
+- rosdistro version: `0.4.0-1`
+- old version: `0.4.0-1`
+- new version: `0.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## teleop_tools (foxy) - 1.3.0-1
 
 The packages in the `teleop_tools` repository were released into the `foxy` distro by running `/usr/local/bin/bloom-release --rosdistro foxy teleop_tools` on `Wed, 23 Nov 2022 07:19:36 -0000`
