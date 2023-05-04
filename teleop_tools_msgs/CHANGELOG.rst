@@ -2,28 +2,20 @@
 Changelog for package teleop_tools_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.0 (2022-11-23)
+0.5.0 (2023-05-04)
 ------------------
 
-1.2.1 (2020-10-29)
+0.4.1 (2021-05-23)
 ------------------
 
-1.2.0 (2020-10-16)
+0.4.0 (2020-06-04)
 ------------------
+* Bump CMake version to avoid CMP0048
+* Python3 compatibility for noetic (`#52 <https://github.com/ros-teleop/teleop_tools/issues/52>`_)
+* Contributors: Bence Magyar, Tim Clephas
 
-1.1.0 (2020-04-21)
+0.3.1 (2020-02-10)
 ------------------
-
-1.0.2 (2020-02-10)
-------------------
-
-1.0.1 (2019-09-18)
-------------------
-
-1.0.0 (2019-09-10)
-------------------
-* ROS2 port (`#35 <https://github.com/ros-teleop/teleop_tools/issues/35>`_)
-* Contributors: Jeremie Deray
 
 0.3.0 (2019-01-03)
 ------------------
